@@ -1,0 +1,538 @@
+.hero-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  max-height: 100vh;
+  padding-top: 81px;
+  padding-bottom: 81px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #212121;
+}
+
+.hero-image-background {
+  overflow: hidden;
+  width: 720px;
+  height: 100vh;
+  min-width: 720px;
+  margin-top: -81px;
+  background-image: url('../images/What-to-eat-Starter-Image.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.game-logo {
+  width: 1000px;
+}
+
+.game-logo.smaller {
+  width: 560px;
+  margin-bottom: 90px;
+}
+
+.game-logo.smaller.no-padding {
+  margin-bottom: 0px;
+}
+
+.subheading {
+  margin-top: 18px;
+  margin-bottom: 154px;
+  color: #fff;
+  font-size: 35px;
+}
+
+.hero-content-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-right: 150px;
+  padding-left: 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.paragraph {
+  width: 670px;
+  min-width: 450px;
+  margin-bottom: 87px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.paragraph-2 {
+  color: #fff;
+  line-height: 1.6;
+}
+
+.start-button {
+  padding: 20px 75px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #fff;
+  border-radius: 12px;
+  background-color: #50ab5f;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.start-button:hover {
+  -webkit-transform: translate(0px, -10px);
+  -ms-transform: translate(0px, -10px);
+  transform: translate(0px, -10px);
+}
+
+.game-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  max-height: 100vh;
+  padding-top: 81px;
+  padding-bottom: 81px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #212121;
+}
+
+.game-image-background {
+  width: 100%;
+  height: 110px;
+  margin-top: -81px;
+  background-image: url('../images/brian-suman-vdbq-iiyvGY-unsplash.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.game-image-background.meats {
+  background-image: url('../images/likemeat-nEp0u0U-ovs-unsplash.jpg');
+  background-position: 50% 30%;
+}
+
+.game-image-background.nuts {
+  background-image: url('../images/tetiana-bykovets-iD1Lo6DBD2g-unsplash.jpg');
+  background-position: 50% 60%;
+  background-attachment: scroll;
+}
+
+.game-image-background.bags {
+  background-image: url('../images/john-cameron-KENd4EBdqow-unsplash.jpg');
+  background-position: 50% 90%;
+  background-attachment: scroll;
+}
+
+.game-content-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 85px;
+  padding-right: 150px;
+  padding-left: 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.question {
+  width: 850px;
+  margin-top: 18px;
+  margin-bottom: 154px;
+  color: #fff;
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 220px;
+  margin-bottom: 120px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.answer-button {
+  padding: 20px 75px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: hsla(0, 0%, 100%, 0.1);
+  border-radius: 12px;
+  background-color: rgba(80, 171, 95, 0);
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+}
+
+.answer-button:hover {
+  background-color: #fff;
+  -webkit-transform: translate(0px, 5px);
+  -ms-transform: translate(0px, 5px);
+  transform: translate(0px, 5px);
+  color: #141414;
+}
+
+.answer-button.cow-milk {
+  background-image: url('../images/6593719_animal_cow_farm_milk_icon.png');
+  background-position: 8% 50%;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.answer-button.oat-milk {
+  background-image: url('../images/corn.png');
+  background-position: 9% 50%;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.answer-button.grass-fed-beef {
+  background-image: url('../images/6613402_beef_food_meat_restaurant_stake_icon.png');
+  background-position: 8% 50%;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.answer-button.plant-based-proteins {
+  padding-left: 114px;
+  background-image: url('../images/6688679_environment_leaf_nature_plant_sprout_icon.png');
+  background-position: 9% 50%;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.answer-button.almond-nuts {
+  background-image: url('../images/almond.png');
+  background-position: 8% 50%;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.answer-button.cashew-nuts {
+  padding-left: 114px;
+  background-image: url('../images/cashew.png');
+  background-position: 9% 50%;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.answer-button.paper-bag {
+  padding-left: 114px;
+  background-image: url('../images/shopping-bag.png');
+  background-position: 9% 50%;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.answer-button.plastic-bag {
+  background-image: url('../images/bag.png');
+  background-position: 8% 50%;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+.closing-image-background {
+  width: 100%;
+  height: 680px;
+  margin-top: -81px;
+  background-image: url('../images/brian-suman-vdbq-iiyvGY-unsplash.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.closing-image-background.meats {
+  background-image: url('../images/likemeat-nEp0u0U-ovs-unsplash.jpg');
+  background-position: 50% 30%;
+}
+
+.closing-image-background.nuts {
+  background-image: url('../images/tetiana-bykovets-iD1Lo6DBD2g-unsplash.jpg');
+  background-position: 50% 60%;
+  background-attachment: scroll;
+}
+
+.closing-image-background.bags {
+  background-image: url('../images/john-cameron-KENd4EBdqow-unsplash.jpg');
+  background-position: 50% 90%;
+  background-attachment: scroll;
+}
+
+.footer {
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #131313;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container.flex-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.closing-content-container {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 85px 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.answers-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 220px;
+  margin-bottom: 120px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.answers-source-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 14px;
+  padding: 1px 25px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, 0.15);
+  border-radius: 15px;
+}
+
+.right-answer {
+  padding: 11px 35px;
+  border-radius: 15px;
+  background-color: #70b56f;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+.versus {
+  margin-right: 39px;
+  margin-left: 39px;
+  padding-right: 0px;
+  padding-left: 0px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.wrong-answerv2 {
+  padding: 11px 35px;
+  border-radius: 15px;
+  background-color: #c94b4b;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+.credits {
+  margin-left: 145px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.popup-container {
+  position: static;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.conclusion-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  max-height: 100vh;
+  padding-top: 81px;
+  padding-bottom: 412px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #212121;
+}
+
+.div-block {
+  position: absolute;
+}
+
+.popup-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 450px;
+  height: 450px;
+  margin-right: 40px;
+  padding: 66px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 60px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.fact {
+  float: left;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.div-block-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-block-3 {
+  margin-top: 58px;
+}
+
+.heading {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-2 {
+  color: #fff;
+  text-decoration: none;
+}
